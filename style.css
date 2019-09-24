@@ -59,13 +59,27 @@ section {
     margin-bottom: 12px;
 }
 
-.navigation ul ul {
+.navigation li ul {
     display: none;
 }
 
 .navigation li:hover ul {
     display: block;
-    text-align: center;
+    margin: 0 auto;
     position: absolute;
-    background: #0097e6;
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 12px;
+    padding-left: 0px;
+}
+
+.navigation li:hover ul a {
+    color: #0097e6;
+    display: block;
+    padding-left: 36px;
+}
+
+.navigation li:hover ul a:hover {
+    color: #33d9b2;
 }
