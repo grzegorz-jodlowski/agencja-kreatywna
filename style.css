@@ -25,6 +25,11 @@ section {
     padding-bottom: 96px;
 }
 
+.section-title {
+    font-size: 48px;
+    margin: 0 0 72px 0;
+}
+
 .btn {
     display: inline-block;
     min-width: 160px;
@@ -146,4 +151,44 @@ section {
     margin: 24px 0;
     font-size: 16px;
     font-weight: 400;
+}
+
+/*Our services*/
+
+.section-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-item {
+    flex: 0 0 33.333%;
+    position: relative;
+}
+
+.section-item p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.section-item p:first-of-type {
+    font-size: 20px;
+}
+
+.item-number {
+    position: absolute;
+    font-size: 144px;
+    line-height: 1;
+    margin: 0;
+    top: 5px;
+    left: 0;
+    font-family: "Signika", sans-serif;
+    color: #33d9b2;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.item-title {
+    font-size: 24px;
+    margin: 0 0 12px 0;
 }
