@@ -167,12 +167,12 @@ section {
 }
 
 .section-item p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
 }
 
 .section-item p:first-of-type {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .item-number {
@@ -221,4 +221,64 @@ section {
 
 .btn-four:hover {
     color: #2c2c54;
+}
+
+/*Our work*/
+
+.ourwork-item {
+    position: relative;
+    min-height: 300px;
+    margin: 0 0 96px 0;
+    flex: 0 0 50%;
+}
+
+.ourwork-item p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.ourwork-item p:last-of-type {
+    font-size: 18px;
+}
+
+.ourwork-image {
+    position: absolute;
+    max-width: 250px;
+    width: 50%;
+    height: 100%;
+}
+
+.ourwork-image:after {
+    position: absolute;
+    content: '';
+    opacity: 0.3;
+    background: #33d9b2;
+    left: 20px;
+    top: 20px;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+.ourwork-image:hover:after {
+    transform: translate(-20px, -20px);
+}
+
+.ourwork-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ourwork-item .ourwork-description {
+    padding: 36px 0 36px 55%;
+    text-align: left;
+}
+
+.btn-five {
+    border: none;
+    margin: 36px 0;
+    padding: 0;
+    text-align: left;
+    color: #33d9b2;
 }
