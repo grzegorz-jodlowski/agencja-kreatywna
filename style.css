@@ -282,3 +282,52 @@ section {
     text-align: left;
     color: #33d9b2;
 }
+
+/*Contact*/
+
+.contact-section {
+    background: #0097e6;
+    color: #ffffff;
+}
+
+.contact-items {
+    display: flex;
+}
+
+.contact-form {
+    flex: 2 0 0;
+    padding-right: 96px;
+}
+
+.contact-details {
+    flex: 1 0 0;
+}
+
+input, textarea {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    padding: 10px;
+    width: 100%;
+    font-family: "Inconsolata", monospace;
+    background: none;
+    color: #fff;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+
+textarea {
+    height: 150px;
+}
+
+.contact-details h3 {
+    font-size: 20px;
+    margin: 0 0 8px 0;
+}
+
+.contact-details p {
+    font-size: 14px;
+}
