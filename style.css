@@ -290,10 +290,6 @@ section {
     color: #ffffff;
 }
 
-.contact-items {
-    display: flex;
-}
-
 .contact-form {
     flex: 2 0 0;
     padding-right: 96px;
@@ -323,6 +319,10 @@ textarea {
     height: 150px;
 }
 
+.contact-details {
+    margin-top: 36px;
+}
+
 .contact-details h3 {
     font-size: 20px;
     margin: 0 0 8px 0;
@@ -330,4 +330,58 @@ textarea {
 
 .contact-details p {
     font-size: 14px;
+}
+
+/*Footer*/
+
+.page-footer {
+    margin: 48px 0 48px 0;
+    text-align: center;
+}
+
+.page-footer ul {
+    list-style-type: none;
+}
+
+.page-footer ul li {
+    display: inline-block;
+    font-size: 0;
+}
+
+.page-footer ul li i {
+    font-size: 30px;
+    background: #ff5252;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    color: #ffffff;
+    transition: all 1s;
+}
+
+.page-footer ul li i:hover {
+    transform: scale(1.2);
+}
+
+/*Media*/
+
+@media (max-width: 767px) {
+    .section-items {
+        flex-direction: column;
+    }
+    .ourwork-image {
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+    }
+    .ourwork-item .ourwork-description {
+        padding: 36px 0 36px 0;
+    }
+    .navigation li {
+        margin-right: 18px;
+    }
+    section {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
 }
