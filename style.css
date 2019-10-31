@@ -2,386 +2,390 @@
 
 /*Global*/
 
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: "Inconsolata", monospace;
-    color: #2c2c54;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Inconsolata", monospace;
+  color: #2c2c54;
 }
 
 .container {
-    max-width: 1140px;
-    padding: 0 20px;
-    margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .section-title {
-    font-size: 48px;
-    margin: 0 0 72px 0;
+  font-size: 48px;
+  margin: 0 0 72px 0;
 }
 
 .btn {
-    display: inline-block;
-    min-width: 160px;
-    margin: 24px auto 0 auto;
-    padding: 16px;
-    border-radius: 5px;
-    font-family: "Inconsolata", monospace;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: 2px solid;
-    background-position: 100% 0;
-    background-size: 300%;
-    transition: all 1s;
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
 }
 
 .btn:hover {
-    background-position: 0 100%;
-    color: #ffffff;
+  background-position: 0 100%;
+  color: #ffffff;
 }
 
 /*Navigation*/
 
 .navigation {
-    background: #0097e6;
-    padding-top: 12px;
-    padding-bottom: 12px;
+  background: #0097e6;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation li {
-    display: inline-block;
-    margin-right: 36px;
-    position: relative;
+  display: inline-block;
+  margin-right: 36px;
+  position: relative;
 }
 
 .navigation a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .navigation a:hover {
-    color: #33d9b2;
+  color: #33d9b2;
 }
 
 .navigation ul ul li {
-    display: block;
-    margin-bottom: 12px;
+  display: block;
+  margin-bottom: 12px;
 }
 
 .navigation li ul {
-    display: none;
+  display: none;
 }
 
 .navigation li:hover ul {
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    background: #fff;
-    left: 50%;
-    transform: translateX(-50%);
-    padding-top: 12px;
-    padding-left: 0px;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  background: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+  padding-left: 0px;
 }
 
 .navigation li:hover ul a {
-    color: #0097e6;
-    display: block;
-    padding-left: 36px;
+  color: #0097e6;
+  display: block;
+  padding-left: 36px;
 }
 
 .navigation li:hover ul a:hover {
-    color: #33d9b2;
+  color: #33d9b2;
 }
 
 /*Splash*/
 
 .splash {
-    background: #0097e6;
-    display: flex;
-    min-height: 500px;
-    color: #ffffff;
+  background: #0097e6;
+  display: flex;
+  min-height: 500px;
+  color: #ffffff;
 }
 
 .splash-inner {
-    margin: auto;
-    max-width: 70%;
+  margin: auto;
+  max-width: 70%;
 }
 
 .page-title {
-    margin: 0;
-    font-size: 72px;
-    line-height: 1.2;
-    word-spacing: -24px;
-    font-weight: 700;
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.2;
+  word-spacing: -24px;
+  font-weight: 700;
 }
 
 .page-title span {
-    font-family: "Signika", sans-serif;
+  font-family: "Signika", sans-serif;
 }
 
 .page-subtitle {
-    margin: 24px 0;
-    font-size: 16px;
-    font-weight: 400;
+  margin: 24px 0;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .btn-one {
-    border-color: #ffffff;
-    color: #ffffff;
-    background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+  border-color: #ffffff;
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
 }
 
 .btn-one:hover {
-    color: #0097e6;
+  color: #0097e6;
 }
 
 /*Our services*/
 
 .section-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .section-item {
-    flex: 0 0 33.333%;
-    position: relative;
+  flex: 0 0 33.333%;
+  position: relative;
 }
 
 .section-item p {
-    font-size: 14px;
-    margin: 0;
+  font-size: 14px;
+  margin: 0;
 }
 
 .section-item p:first-of-type {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .item-number {
-    position: absolute;
-    font-size: 144px;
-    line-height: 1;
-    margin: 0;
-    top: 5px;
-    left: 0;
-    font-family: "Signika", sans-serif;
-    color: #33d9b2;
-    opacity: 0.2;
-    z-index: -1;
+  position: absolute;
+  font-size: 144px;
+  line-height: 1;
+  margin: 0;
+  top: 5px;
+  left: 0;
+  font-family: "Signika", sans-serif;
+  color: #33d9b2;
+  opacity: 0.2;
+  z-index: -1;
 }
 
 .item-title {
-    font-size: 24px;
-    margin: 0 0 12px 0;
+  font-size: 24px;
+  margin: 0 0 12px 0;
 }
 
 .btn-two {
-    border-color: #33d9b2;
-    color: #33d9b2;
-    background-image: linear-gradient(90deg, #33d9b2 50%, transparent 50%);
+  border-color: #33d9b2;
+  color: #33d9b2;
+  background-image: linear-gradient(90deg, #33d9b2 50%, transparent 50%);
 }
 
 .btn-two:hover {
-    color: #2c2c54;
+  color: #2c2c54;
 }
 
 .btn-three {
-    border-color: #ff5252;
-    color: #ff5252;
-    background-image: linear-gradient(90deg, #ff5252 50%, transparent 50%);
+  border-color: #ff5252;
+  color: #ff5252;
+  background-image: linear-gradient(90deg, #ff5252 50%, transparent 50%);
 }
 
 .btn-three:hover {
-    color: #2c2c54;
+  color: #2c2c54;
 }
 
 .btn-four {
-    border-color: #0097e6;
-    color: #0097e6;
-    background-image: linear-gradient(90deg, #0097e6 50%, transparent 50%);
+  border-color: #0097e6;
+  color: #0097e6;
+  background-image: linear-gradient(90deg, #0097e6 50%, transparent 50%);
 }
 
 .btn-four:hover {
-    color: #2c2c54;
+  color: #2c2c54;
 }
 
 /*Our work*/
 
 .ourwork-item {
-    position: relative;
-    min-height: 300px;
-    margin: 0 0 96px 0;
-    flex: 0 0 50%;
+  position: relative;
+  min-height: 300px;
+  margin: 0 0 96px 0;
+  flex: 0 0 50%;
 }
 
 .ourwork-item p {
-    font-size: 14px;
-    margin: 0;
+  font-size: 14px;
+  margin: 0;
 }
 
 .ourwork-item p:last-of-type {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .ourwork-image {
-    position: absolute;
-    max-width: 250px;
-    width: 50%;
-    height: 100%;
+  position: absolute;
+  max-width: 250px;
+  width: 50%;
+  height: 100%;
 }
 
 .ourwork-image:after {
-    position: absolute;
-    content: '';
-    opacity: 0.3;
-    background: #33d9b2;
-    left: 20px;
-    top: 20px;
-    height: 100%;
-    width: 100%;
-    transition: all 1s;
+  position: absolute;
+  content: "";
+  opacity: 0.3;
+  background: #33d9b2;
+  left: 20px;
+  top: 20px;
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
 }
 
 .ourwork-image:hover:after {
-    transform: translate(-20px, -20px);
+  transform: translate(-20px, -20px);
 }
 
 .ourwork-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .ourwork-item .ourwork-description {
-    padding: 36px 0 36px 55%;
-    text-align: left;
+  padding: 36px 0 36px 55%;
+  text-align: left;
 }
 
 .btn-five {
-    border: none;
-    margin: 36px 0;
-    padding: 0;
-    text-align: left;
-    color: #33d9b2;
+  border: none;
+  margin: 36px 0;
+  padding: 0;
+  text-align: left;
+  color: #33d9b2;
 }
 
 /*Contact*/
 
 .contact-section {
-    background: #0097e6;
-    color: #ffffff;
+  background: #0097e6;
+  color: #ffffff;
 }
 
 .contact-form {
-    flex: 2 0 0;
-    padding-right: 96px;
+  flex: 2 0 0;
+  padding-right: 96px;
 }
 
 .contact-details {
-    flex: 1 0 0;
+  flex: 1 0 0;
 }
 
-input, textarea {
-    display: block;
-    margin: 10px auto;
-    border: none;
-    border-bottom: 3px solid #ffffff;
-    padding: 10px;
-    width: 100%;
-    font-family: "Inconsolata", monospace;
-    background: none;
-    color: #fff;
+input,
+textarea {
+  display: block;
+  margin: 10px auto;
+  border: none;
+  border-bottom: 3px solid #ffffff;
+  padding: 10px;
+  width: 100%;
+  font-family: "Inconsolata", monospace;
+  background: none;
+  color: #fff;
 }
 
-input::placeholder, textarea::placeholder {
-    color: #fff;
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
 }
 
 textarea {
-    height: 150px;
+  height: 150px;
 }
 
 .contact-details {
-    margin-top: 36px;
+  margin-top: 36px;
 }
 
 .contact-details h3 {
-    font-size: 20px;
-    margin: 0 0 8px 0;
+  font-size: 20px;
+  margin: 0 0 8px 0;
 }
 
 .contact-details p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /*Footer*/
 
 .page-footer {
-    margin: 48px 0 48px 0;
-    text-align: center;
+  margin: 48px 0 48px 0;
+  text-align: center;
 }
 
 .page-footer ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .page-footer ul li {
-    display: inline-block;
-    font-size: 0;
+  display: inline-block;
+  font-size: 0;
 }
 
 .page-footer ul li i {
-    font-size: 30px;
-    background: #ff5252;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    line-height: 60px;
-    color: #ffffff;
-    transition: all 1s;
+  background: #ff5252;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 30px;
+  height: 60px;
+  line-height: 60px;
+  transition: all 1s;
+  width: 60px;
 }
 
 .page-footer ul li i:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /*Media*/
 
 @media (max-width: 767px) {
-    .section-items {
-        flex-direction: column;
-    }
-    .ourwork-image {
-        position: relative;
-        max-width: 100%;
-        width: 100%;
-    }
-    .ourwork-item .ourwork-description {
-        padding: 36px 0 36px 0;
-    }
-    .navigation li {
-        margin-right: 18px;
-    }
-    section {
-        padding-top: 48px;
-        padding-bottom: 48px;
-    }
+  .section-items {
+    flex-direction: column;
+  }
+  .ourwork-image {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+  }
+  .ourwork-item .ourwork-description {
+    padding: 36px 0 36px 0;
+  }
+  .navigation li {
+    margin-right: 18px;
+  }
+  section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
 }

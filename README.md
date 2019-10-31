@@ -43,21 +43,47 @@ Responsive website for a creative agency with drop-down menu, services, portfoli
 - add responsiveness to website (using media queries),
 - check the appearance of the page on different screens (ex. <a href="http://responsiv.eu/">Responsive View</a>)
 - create animation using CSS,
+- find an interesting hover effects  (ex. <a href="https://tympanus.net/Development/HoverEffectIdeas/">Hover Effect Ideas</a>),
 - use the chrome inspector in an advanced way,
 - insert fancy social media icons into footer,
-
-
-
-
-
 
 </br>
 
 ## <a name="interesting"></a>Interesting code snippet (for me of course 😉)
--
+- hiding social media names with icon visibility (for better accessibility)
 
+```html
+<ul>
+  <li>
+    <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-behance"></i>Behance</a>
+  </li>
+</ul>
+```
 ```css
+.page-footer ul {
+  list-style-type: none;
+}
 
+.page-footer ul li {
+  display: inline-block;
+  font-size: 0;
+}
+
+.page-footer ul li i {
+  background: #ff5252;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 30px;
+  height: 60px;
+  line-height: 60px;
+  transition: all 1s;
+  width: 60px;
 }
 ```
 
