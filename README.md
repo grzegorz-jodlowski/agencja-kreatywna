@@ -41,9 +41,9 @@ Responsive website for a creative agency with drop-down menu, services, portfoli
 - create a multi-level menu,
 - set elements on the page using a flexbox,
 - add responsiveness to website (using media queries),
-- check the appearance of the page on different screens (ex. <a href="http://responsiv.eu/">Responsive View</a>)
+- check the appearance of the page on different screens (e.g. <a href="http://responsiv.eu/">Responsive View</a>)
 - create animation using CSS,
-- find an interesting hover effects  (ex. <a href="https://tympanus.net/Development/HoverEffectIdeas/">Hover Effect Ideas</a>),
+- find an interesting hover effects  (e.g. <a href="https://tympanus.net/Development/HoverEffectIdeas/">Hover Effect Ideas</a>),
 - use the chrome inspector in an advanced way,
 - insert fancy social media icons into footer,
 
