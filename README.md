@@ -3,7 +3,6 @@
 </p>
 
 
-
 # <p align="center">⚡ Creative agency</p>
 <p align="center">Project for learning advanced CSS</p>
 
