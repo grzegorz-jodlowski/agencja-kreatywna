@@ -9,17 +9,17 @@
 }
 
 body {
-  margin: 0;
+  color: #2c2c54;
+  font-family: "Inconsolata", monospace;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Inconsolata", monospace;
-  color: #2c2c54;
+  margin: 0;
 }
 
 .container {
   max-width: 1140px;
-  padding: 0 20px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 section {
@@ -33,19 +33,19 @@ section {
 }
 
 .btn {
+  background-position: 100% 0;
+  background-size: 300%;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
   display: inline-block;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
   min-width: 160px;
   margin: 24px auto 0 auto;
   padding: 16px;
-  border-radius: 5px;
-  font-family: "Inconsolata", monospace;
-  font-size: 16px;
   text-align: center;
   text-decoration: none;
-  cursor: pointer;
-  border: 2px solid;
-  background-position: 100% 0;
-  background-size: 300%;
   transition: all 1s;
 }
 
@@ -75,8 +75,8 @@ section {
 }
 
 .navigation a {
-  text-decoration: none;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .navigation a:hover {
@@ -93,14 +93,14 @@ section {
 }
 
 .navigation li:hover ul {
+  background: #fff;
   display: block;
+  left: 50%;
   margin: 0 auto;
   position: absolute;
-  background: #fff;
-  left: 50%;
-  transform: translateX(-50%);
   padding-top: 12px;
   padding-left: 0px;
+  transform: translateX(-50%);
 }
 
 .navigation li:hover ul a {
@@ -117,9 +117,9 @@ section {
 
 .splash {
   background: #0097e6;
+  color: #ffffff;
   display: flex;
   min-height: 500px;
-  color: #ffffff;
 }
 
 .splash-inner {
