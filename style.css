@@ -130,9 +130,9 @@ section {
 .page-title {
   margin: 0;
   font-size: 72px;
+  font-weight: 700;
   line-height: 1.2;
   word-spacing: -24px;
-  font-weight: 700;
 }
 
 .page-title span {
@@ -140,15 +140,15 @@ section {
 }
 
 .page-subtitle {
-  margin: 24px 0;
   font-size: 16px;
   font-weight: 400;
+  margin: 24px 0;
 }
 
 .btn-one {
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
   border-color: #ffffff;
   color: #ffffff;
-  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
 }
 
 .btn-one:hover {
@@ -178,15 +178,15 @@ section {
 }
 
 .item-number {
-  position: absolute;
+  color: #33d9b2;
   font-size: 144px;
+  font-family: "Signika", sans-serif;
+  left: 0;
   line-height: 1;
   margin: 0;
-  top: 5px;
-  left: 0;
-  font-family: "Signika", sans-serif;
-  color: #33d9b2;
   opacity: 0.2;
+  position: absolute;
+  top: 5px;
   z-index: -1;
 }
 
@@ -196,9 +196,9 @@ section {
 }
 
 .btn-two {
+  background-image: linear-gradient(90deg, #33d9b2 50%, transparent 50%);
   border-color: #33d9b2;
   color: #33d9b2;
-  background-image: linear-gradient(90deg, #33d9b2 50%, transparent 50%);
 }
 
 .btn-two:hover {
@@ -206,9 +206,9 @@ section {
 }
 
 .btn-three {
+  background-image: linear-gradient(90deg, #ff5252 50%, transparent 50%);
   border-color: #ff5252;
   color: #ff5252;
-  background-image: linear-gradient(90deg, #ff5252 50%, transparent 50%);
 }
 
 .btn-three:hover {
@@ -216,9 +216,9 @@ section {
 }
 
 .btn-four {
+  background-image: linear-gradient(90deg, #0097e6 50%, transparent 50%);
   border-color: #0097e6;
   color: #0097e6;
-  background-image: linear-gradient(90deg, #0097e6 50%, transparent 50%);
 }
 
 .btn-four:hover {
@@ -228,10 +228,10 @@ section {
 /*Our work*/
 
 .ourwork-item {
-  position: relative;
-  min-height: 300px;
-  margin: 0 0 96px 0;
   flex: 0 0 50%;
+  margin: 0 0 96px 0;
+  min-height: 300px;
+  position: relative;
 }
 
 .ourwork-item p {
@@ -244,22 +244,22 @@ section {
 }
 
 .ourwork-image {
-  position: absolute;
-  max-width: 250px;
-  width: 50%;
   height: 100%;
+  max-width: 250px;
+  position: absolute;
+  width: 50%;
 }
 
 .ourwork-image:after {
-  position: absolute;
-  content: "";
-  opacity: 0.3;
   background: #33d9b2;
-  left: 20px;
-  top: 20px;
+  content: "";
   height: 100%;
-  width: 100%;
+  left: 20px;
+  opacity: 0.3;
+  position: absolute;
+  top: 20px;
   transition: all 1s;
+  width: 100%;
 }
 
 .ourwork-image:hover:after {
@@ -267,9 +267,9 @@ section {
 }
 
 .ourwork-image img {
-  width: 100%;
   height: 100%;
   object-fit: cover;
+  width: 100%;
 }
 
 .ourwork-item .ourwork-description {
@@ -279,10 +279,10 @@ section {
 
 .btn-five {
   border: none;
+  color: #33d9b2;
   margin: 36px 0;
   padding: 0;
   text-align: left;
-  color: #33d9b2;
 }
 
 /*Contact*/
@@ -303,15 +303,15 @@ section {
 
 input,
 textarea {
-  display: block;
-  margin: 10px auto;
+  background: none;
   border: none;
   border-bottom: 3px solid #ffffff;
+  color: #fff;
+  display: block;
+  font-family: "Inconsolata", monospace;
+  margin: 10px auto;
   padding: 10px;
   width: 100%;
-  font-family: "Inconsolata", monospace;
-  background: none;
-  color: #fff;
 }
 
 input::placeholder,
@@ -374,8 +374,8 @@ textarea {
     flex-direction: column;
   }
   .ourwork-image {
-    position: relative;
     max-width: 100%;
+    position: relative;
     width: 100%;
   }
   .ourwork-item .ourwork-description {
