@@ -90,7 +90,7 @@ Responsive website for a creative agency with drop-down menu, services, portfoli
 </br>
 
 ## <a name="site"></a>Website (on GitHub Pages)
-<a href="https://grzegorz-jodlowski.github.io/creative-agency/">Sample portfolio</a>
+<a href="https://grzegorz-jodlowski.github.io/creative-agency/">Creative agency</a>
 
 </br>
 </br>
