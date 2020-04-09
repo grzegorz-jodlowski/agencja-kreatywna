@@ -15,7 +15,7 @@
 - [Technologies used](#technologies)
 - [What I learned?](#what)
 - [Interesting code snippet](#interesting)
-- [GitHub Pages](#gitHub)
+- [Website (on GitHub Pages)](#site)
 
 </br>
 
@@ -89,7 +89,7 @@ Responsive website for a creative agency with drop-down menu, services, portfoli
 
 </br>
 
-## <a name="gitHub"></a>GitHub Pages
+## <a name="site"></a>Website (on GitHub Pages)
 <a href="https://grzegorz-jodlowski.github.io/creative-agency/">Sample portfolio</a>
 
 </br>
