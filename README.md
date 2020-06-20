@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://grzegorz-jodlowski.github.io/creative-agency/"><img src="logo1.jpg" title="logo" alt="pharmaceutical mortar with a pistol"></a>
+<a href="https://grzegorz-jodlowski.github.io/creative-agency/"><img src="Assets/logo1.jpg" title="logo" alt="pharmaceutical mortar with a pistol"></a>
 </p>
 
 
